@@ -1,0 +1,10 @@
+# Site settings
+title: Antiheroine
+description: >
+  A podcast about scandalous women in history
+tagline: A podcast about scandalous women in history
+baseurl: ""
+url: "http://antiheroinepodcast.com"
+
+# Build settings
+markdown: kramdown
