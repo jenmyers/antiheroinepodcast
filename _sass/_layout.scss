@@ -151,7 +151,10 @@
     }
 
     a {
-        color: #aaa;
+        color: $grey-color;
+        &:hover {
+            color: lighten($grey-color, 25%);
+        }
     }
 }
 
@@ -248,16 +251,17 @@
 
 .post-meta {
     color: $tagline-color;
+    display: inline-block;
     font-family: $tagline-font-family;
+    font-size: 22px;
     letter-spacing: 1px;
+    margin-bottom: 15px;
     text-transform: uppercase;
 }
 
 .post-link {
     display: block;
-    font-size: 24px;
-    font-weight: bold;
-    text-decoration: none;
+    font-size: 34px;
 }
 
 .post-more {
@@ -272,6 +276,10 @@
  */
 .post-header {
     margin-bottom: $spacing-unit;
+}
+
+.center {
+    text-align: center;
 }
 
 .post-title {
@@ -310,4 +318,13 @@
             font-size: 18px;
         }
     }
+}
+
+// Mailing list form styles
+
+#mc_embed_signup {
+    background: #333;
+    clear: left;
+    margin-bottom: 40px;
+    width: 100%;
 }

@@ -10,19 +10,19 @@ $base-font-family:    "ff-meta-serif-web-pro", Georgia, serif;
 $title-font-family:   "voltage", cursive;
 $tagline-font-family: "brandon-grotesque", Helvetica, sans-serif;
 
-$base-font-size:      16px;
+$base-font-size:      18px;
 $title-font-size:     120px;
 $tagline-font-size:   22px;
 $nav-font-size:       20px;
 $small-font-size:     $base-font-size * 0.875;
-$base-line-height:    1.5;
+$base-line-height:    1.75;
 
 $spacing-unit:        30px;
 
 $text-color:          #333;
 $tagline-color:       lighten($text-color, 15%);
 $background-color:    #fdfdfd;
-$brand-color:         #E83922;
+$brand-color:         #e83922;
 $footer-color:        #333;
 
 $grey-color:          #828282;
